@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    @include('includes.header')
     <main class="container m-5">
         @yield('content')
     </main>
